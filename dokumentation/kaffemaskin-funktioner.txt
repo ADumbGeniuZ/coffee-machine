@@ -1,21 +1,27 @@
 Min maskin ska ha en display där man då kan välja 
 mellan 4 olika kaffesorter: Svart, caffe latte, cappucino och espresso
+Dessa kaffesorter ska kosta olika mycket i endast SEK:
+Svart: 10 kr 
+Caffe latte: 15 kr 
+Cappucino: 20 kr
+Espresso: 25 kr
 Dessa ska synas på en display, med 4 knappar under displayen,
 tex om svart kaffe står längst till vänster på displayen, 
 så ska man trycka på knappen längst till vänster, så får man svart kaffe.
-Man ska kunna betala med swish eller kontokort,
-på displayen ska man kunna välja sin betalningsmetod: swish eller kontokort
+Man ska kunna betala med kontokort eller mynt,
+på displayen ska man kunna välja sin betalningsmetod: swish eller kontokort med respektive knapp undertill
+Man ska kunna blippa sitt kort 
 Har du inte tillräckligt med pengar på kortet, 
 så kommer det upp en fråga på displayen: "Din kontobalans är otillräcklig för detta köp,
 vill du betala med Swish istället?"
 När du sen betalat
-Om en kopp inte är placerad, så ska det stå på displayen: Vänligen placera en kopp för att fortsätta
+Om en kopp inte är placerad, så ska det stå på displayen: "Vänligen placera en kopp för att fortsätta"
 Maskinen gör inte kaffe förens en kopp är placerad
 Du måste också välja kaffetyp för att komma vidare, 
-om du inte har valt en kaffetyp ska det stå: "Vänligen välj en kaffesort"
+om du inte har valt en kaffesort ska det stå: "Vänligen välj en kaffesort"
 Är det slut på antingen kaffebönor eller mjölk, 
 så ska det komma upp ett meddelande på displayen: 
-"Vänligen fyll på kaffe/mjölk för att fortsätta eller kontaka service"
+"Vänligen fyll på kaffe/mjölk för att fortsätta eller kontakta service"
 Sen så när det finns en kopp placerad, du har valt kaffesort, 
 och det finns kaffebönor och mjölk,
 så ska den kaffesort du valt att hällas i koppen.
