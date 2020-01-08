@@ -1,13 +1,13 @@
 Min maskin ska ha en display där man då kan välja 
 mellan 4 olika kaffesorter: Svart, caffe latte, cappucino och espresso
+med hjälp av knappar under displayen
+tex om svart kaffe står längst till vänster på displayen, 
+så trycker man på knappen längst till vänster, så får man svart kaffe.
 Dessa kaffesorter ska kosta olika mycket i endast SEK:
 Svart: 10 kr 
 Caffe latte: 15 kr 
 Cappucino: 20 kr
 Espresso: 25 kr
-Dessa ska synas på en display, med 4 knappar under displayen,
-tex om svart kaffe står längst till vänster på displayen, 
-så ska man trycka på knappen längst till vänster, så får man svart kaffe.
 Man ska kunna betala med kontokort eller mynt,
 på displayen ska man kunna välja sin betalningsmetod: swish eller kontokort med respektive knapp undertill
 Man ska kunna blippa sitt kort 
