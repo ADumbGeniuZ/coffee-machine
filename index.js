@@ -5,14 +5,17 @@ class CoffeeMachine {
 
     constructor() {
         this.pluggedIn = false;
-        this.connectedToWater = false;
+        this.filledWithWater = false;
         this.numberOfCups = 0;
         this.insertedMoney = 0;
         // these two properties in gram
         this.amountOfCoffee = 0;
         // some settings
         this.coffeePerCup = 13; // in grams
-        this.pricePerCup = 10 // in SEK
+        this.pricePerCup1 = 10; // in SEK
+        this.pricePerCup2 = 15;
+        this.pricePerCup3 = 20;
+        this.pricePerCup4 = 25;
     }
 
     // maintenance
@@ -21,8 +24,8 @@ class CoffeeMachine {
         this.pluggedIn = true;
     }
 
-    connectToWater() {
-        this.connectedToWater = true;
+    fillWithWater() {
+        this.filledWithWater = true;
     }
 
     fillWithCoffee(amount) {

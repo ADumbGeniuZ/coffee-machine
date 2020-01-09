@@ -3,28 +3,34 @@ Feature:
     I want a basic machine 
     where can choose between 4 types of coffee
     namely: Black, caffe latte, cappucino and espresso
-    and pay by using either a creditcard or swish
+    and pay by using either a creditcard or coin
     because I crave caffeine.
+
+    Background: Getting coffee
+        Given that I want to buy coffee
+        When I have choosen a coffee type and payment method
+        Then I should some get some coffee
+    
 
     Scenario Outline: Paying with coins
         Given that the machine is plugged in
+        And presses the "start" button
         And that water is available
         And that the machine has enough ground coffee
-        And the machine has plastic cups
-        When the user inserts a <money1> kr coin
-        And the user inserts a <money2> kr coin
-        And the user inserts a <money3> kr coin
-        And the user inserts a <money4> kr coin
-        And the user inserts a <money5> kr coin
-        And the user inserts a <money6> kr coin
-        And presses the "start" button
+        And that a cup has been placed
+        And that coffee type and payment method has been chosen
+        When the user inserts <money1> kr coin
+        And the user inserts <money2> kr coin
+        And the user inserts <money3> kr coin
+        And the user inserts <money4> kr coin
+        And the user inserts <money5> kr coin
+        And the user inserts <money6> kr coin
         Then the user recieves <cup> cup of coffee.
 
         Examples: Black Coffee
             | money1 | money2 | money3 | money4 | money5 | money6 | cup |
             | 10     | 10     | 5      | 0      | 0      | 0      | 1   |
             | 10     | 5      | 5      | 5      | 0      | 0      | 1   |
-            | 5      | 5      | 5      | 5      | 5      | 0      | 1   |
             | "pollett" | 5   | 5      | 2      | 2      | 0      | 0   |
             | 5      | 5      | 5      | 5      | 2      | 1      | 0   |
             
@@ -32,7 +38,6 @@ Feature:
             | money1 | money2 | money3 | money4 | money5 | money6 | cup |
             | 10     | 10     | 5      | 0      | 0      | 0      | 1   |
             | 10     | 5      | 5      | 5      | 0      | 0      | 1   |
-            | 5      | 5      | 5      | 5      | 5      | 0      | 1   |
             | 10     | 5      | "pollett" | 2   | 2      | 0      | 0   |
             | 5      | 5      | 5      | 5      | 2      | 1      | 0   |
 
@@ -40,7 +45,6 @@ Feature:
             | money1 | money2 | money3 | money4 | money5 | money6 | cup |
             | 10     | 10     | 5      | 0      | 0      | 0      | 1   |
             | 10     | 5      | 5      | 5      | 0      | 0      | 1   |
-            | 5      | 5      | 5      | 5      | 5      | 0      | 1   |
             | 10     | 5      | 5      | 2      | 2      | "pollett" | 0 |
             | 5      | 5      | 5      | 5      | 2      | 1      | 0   |
         
@@ -48,25 +52,23 @@ Feature:
             | money1    | money2  | money3  | money4 | money5 | money6 | cup |
             | 10        | 10      | 5       | 0      | 0      | 0      | 1   |
             | 10        | 5       | 5       | 5      | 0      | 0      | 1   |
-            | 5         | 5       | 5       | 5      | 5      | 0      | 1   |
             | 10        | 5       | 5       | 2      | 2      | 0      | 0   |
-            | 5         | 5       | 5       | 5      | 2      | 1      | 0   | 
             | "pollett" | 5       | 5       | 5      | 2      | 2      | 0   |
 
    
    
    Scenario Outline: Paying with creditcard
         Given that the machine is plugged in
+        And presses the "start" button
         And that water is available
         And that the machine has enough ground coffee
-        And the machine has plastic cups
+        And that a cup has been placed
         When the user uses a creditcard 
         And has enough <balance> 
-        And the user buys a <coffee1>
-        And the user buys a <coffee2>
-        And the user buys a <coffee3>
-        And the user buys a <coffee4>
-        And presses the "start" button
+        When the user presses the button for <coffee1>
+        When the user presses the button for <coffee2>
+        When the user presses the button for <coffee3>
+        When the user presses the button for <coffee4>
         Then the user recieves <cup> cup of coffee.
 
 
@@ -100,7 +102,8 @@ Feature:
             | 12       | 25       | 0   |
             
 
-
+    Scenario Outline: Pushing more than one button at a time
+                      
             
 
             

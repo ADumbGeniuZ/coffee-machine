@@ -9,11 +9,11 @@ Caffe latte: 15 kr
 Cappucino: 20 kr
 Espresso: 25 kr
 Man ska kunna betala med kontokort eller mynt,
-på displayen ska man kunna välja sin betalningsmetod: swish eller kontokort med respektive knapp undertill
+på displayen ska man kunna välja sin betalningsmetod: mynt eller kontokort med respektive knapp undertill
 Man ska kunna blippa sitt kort 
 Har du inte tillräckligt med pengar på kortet, 
 så kommer det upp en fråga på displayen: "Din kontobalans är otillräcklig för detta köp,
-vill du betala med Swish istället?"
+vill du betala med mynt istället?"
 När du sen betalat
 Om en kopp inte är placerad, så ska det stå på displayen: "Vänligen placera en kopp för att fortsätta"
 Maskinen gör inte kaffe förens en kopp är placerad
