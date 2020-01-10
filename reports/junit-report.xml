@@ -1,2177 +1,1537 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0005321">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001231">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001777">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0003517">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0002255">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0001134">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000927">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001143">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001053">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000113699">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000663">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000063101">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000060599">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000786">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001285">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001164">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000092801">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000150701">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts &quot;pollett&quot; kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts &quot;pollett&quot; kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000104201">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000093">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000099699">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000922">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.002724">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0001176">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 1 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 1 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0001462">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001073">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001063">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001716">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000894">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000055701">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000702">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000873">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000063501">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000771">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000764">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000044501">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0001057">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000088799">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000746">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000057801">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000603">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000042199">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts &quot;pollett&quot; kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts &quot;pollett&quot; kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000857">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000874">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000565">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000074599">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000062501">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000046001">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 1 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 1 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000084499">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000801">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000052601">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000869">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000094101">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000738">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000056899">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000073">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000052">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000711">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000986">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000453">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000498">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000068701">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000825">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000791">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000944">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000078501">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts &quot;pollett&quot; kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts &quot;pollett&quot; kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000839">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001055">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000114">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000477">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000666">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000625">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 1 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 1 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000074799">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001073">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000070299">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000749">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000070699">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000496">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000657">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000069899">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001236">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000831">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000130001">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000629">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000074099">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000747">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000654">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000049001">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000537">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000109601">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-coins" tests="16" failures="0" skipped="16">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-coins">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000049701">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000647">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000896">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000066999">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000893">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000638">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-coins">
+        <testcase name="And that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-coins">
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-coins">
+        <testcase name="When the user inserts &quot;pollett&quot; kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that water is available" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-coins">
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And that coffee type and payment method has been chosen" classname=";paying-with-coins">
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When the user inserts &quot;pollett&quot; kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname=";paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-coins">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000446">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000063899">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0001281">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000062">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000474">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000044599">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 10" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 10" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 10" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0001091">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000682">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000067899">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000100801">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000578">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000048299">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 13" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 13" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 10" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000564">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000791">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000114">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000473">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000995">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000046999">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 7" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 7" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 10" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000091099">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000068">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000073801">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000067599">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000495">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000049201">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 9" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 9" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 10" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000053301">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000622">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000061101">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000176699">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000493">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000636">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 20" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 20" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 15" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0001105">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000782">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0001167">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000055299">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000787">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000402">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 40" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 40" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 15" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000429">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000065201">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000894">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000521">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000042401">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000739">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 10" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 10" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 15" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000784">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000806">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000487">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000919">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000039401">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000326">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 14" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 14" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 15" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000599">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000852">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000063001">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000052101">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000442">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000418">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 214" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 214" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 20" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000753">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000727">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000664">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000572">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000052799">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000063899">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 34" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 34" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 20" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000045099">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000567">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000153599">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000054901">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000054101">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000446">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 18" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 18" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 20" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000064899">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000735">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0001247">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000944">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000445">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000362">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 14" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 14" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 20" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee4&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000468">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000097401">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.001177699">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000075199">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000287">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000031101">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 53" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 53" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 25" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000518">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000047401">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000603">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000049499">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000562">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000045201">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 90" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 90" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 25" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 1 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000459">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000659">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000427">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000050401">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000398">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000058">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 23" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 23" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 25" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";paying-with-creditcard" tests="15" failures="0" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname=";paying-with-creditcard">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000044401">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000605">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000088299">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000106001">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000723">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000418">
+        </testcase>
+        <testcase name="Given the user presses the &quot;start&quot; button" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="When I have choosen a coffee type and payment method" classname=";paying-with-creditcard">
+        <testcase name="And that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I should some get some coffee." classname=";paying-with-creditcard">
+        <testcase name="When the user uses the creditcard" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";paying-with-creditcard">
+        <testcase name="And has enough 12" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that water is available" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user uses a creditcard" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has enough 12" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee1&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee2&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for &lt;coffee3&gt;" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user presses the button for 25" classname=";paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";paying-with-creditcard">
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
             </skipped>
         </testcase>

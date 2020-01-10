@@ -4,11 +4,17 @@
 class CoffeeMachine {
 
     constructor() {
+        this.userNeedsCoffee = false;
         this.pluggedIn = false;
         this.machineTurnedOn = false;
-        this.amountOfWater = 30; // in litres
+        this.groundCoffeeAvailable = false;
+        this.waterAvailable = false;
+        this.amountOfWater = 0; // in litres
+        this.amountOfCoffee = 0;
         this.placedCup = false;
         this.insertedMoney = 0;
+        this.blippedCreditCard = false;
+        this.checkedBalance = false;
         // these two properties in gram
         this.amountOfCoffee = 0;
         // some settings
@@ -18,17 +24,23 @@ class CoffeeMachine {
         this.pricePerCup3 = 20;
         this.pricePerCup4 = 25;
     }
-
-    // maintenance
+    
+    userWantsCoffee() {
+        this.userNeedsCoffee = true;
+    }
 
     plugIn() {
         this.pluggedIn = true;
     }
 
     pressStartButton() {
-        this.machineTurnedOn = true;
+        this.pressedStartButton = true;
     }
-    
+      
+    checkIfIngredientsExists() {
+        this.groundCoffeeAvailable = true;
+        this.waterAvailable = true;
+    }
 
     fillWithWater(amount) {
         this.filledWithWater += amount;
@@ -42,9 +54,9 @@ class CoffeeMachine {
 
     placeCup() {
         // check if a cup has been placed
-        this.placedCup = true; 
+        this.placedCup = true;
     }
-
+    
     // user choices
 
     insertMoney(inserted) {
@@ -63,9 +75,13 @@ class CoffeeMachine {
 
     // internals
 
+    checkIfEnoughCoffeeForCup() {
+        return this.amountOfCoffee >= this.coffeePerCup;
+    }
+
+
     brewCoffee() {
-        // one cup at a time
-        // heat water... etc
+        
     }
 
 
@@ -73,13 +89,6 @@ class CoffeeMachine {
 
     }
 
-    checkIfEnoughCoffeeForACup() {
-        return this.amountOfCoffee >= this.coffeePerCup;
-    }
-
-    checkIfAnyCupsLeft() {
-        return this.numberOfCups >= 1;
-    }
 
 }
 
