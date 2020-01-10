@@ -59,7 +59,7 @@ Feature: Kaffemaskin
 
     Scenario Outline: Paying with creditcard
         Given that coffee type <beverage> has been chosen
-        When the user uses the creditcard
+        When the payment method creditcard has been chosen
         And has enough <balance>
         Then the user recieves <cup> cup of coffee.
 

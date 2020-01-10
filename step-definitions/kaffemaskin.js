@@ -61,7 +61,15 @@ module.exports = function () {
         
         myMachine.placeCup();
 
-        assert.strictEqual(myMachine.placedCup, true, "Expected the user to have placed a cup");
+        assert.strictEqual(myMachine.placedCup, true, "Expected the user to have placed a cup"); 
+        
+    });
+
+    this.Given(/^that coffee type Black Coffee has been chosen$/, function () {
+        
+        myMachine.chooseCoffeeType();
+
+        assert.isArray(this.choseCoffeeType[0], "Expected the user to choose Black Coffee");
         
     });
 

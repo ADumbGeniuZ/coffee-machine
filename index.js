@@ -12,6 +12,7 @@ class CoffeeMachine {
         this.amountOfWater = 0; // in litres
         this.amountOfCoffee = 0;
         this.placedCup = false;
+        this.choseCoffeeType = [];
         this.insertedMoney = 0;
         this.blippedCreditCard = false;
         this.checkedBalance = false;
@@ -55,6 +56,10 @@ class CoffeeMachine {
     placeCup() {
         // check if a cup has been placed
         this.placedCup = true;
+    }
+
+    chooseCoffeeType() {
+      this.choseCoffeeType = ["Black Coffee", "Caffe Latte", "Cappucino", "Espresso"];
     }
     
     // user choices
