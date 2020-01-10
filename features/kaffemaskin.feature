@@ -1,20 +1,22 @@
-Feature:
+Feature: Kaffemaskin
+
     As a coffee buyer
     I want a basic machine 
-    where can choose between 4 types of coffee
+    where I can choose between 4 types of coffee
     namely: Black, caffe latte, cappucino and espresso
     and pay by using either a creditcard or coin
     because I crave caffeine.
 
     Background: Getting coffee
         Given that I want to buy coffee
+        And that ground coffee and water is available
         When I have choosen a coffee type and payment method
-        Then I should some get some coffee
+        Then I should some get some coffee.
     
 
     Scenario Outline: Paying with coins
         Given that the machine is plugged in
-        And presses the "start" button
+        And the user presses the "start" button
         And that water is available
         And that the machine has enough ground coffee
         And that a cup has been placed
@@ -102,7 +104,9 @@ Feature:
             | 12       | 25       | 0   |
             
 
-    Scenario Outline: Pushing more than one button at a time
+    
+        
+        
                       
             
 

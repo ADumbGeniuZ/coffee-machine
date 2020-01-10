@@ -5,8 +5,9 @@ class CoffeeMachine {
 
     constructor() {
         this.pluggedIn = false;
-        this.filledWithWater = false;
-        this.numberOfCups = 0;
+        this.machineTurnedOn = false;
+        this.amountOfWater = 30; // in litres
+        this.placedCup = false;
         this.insertedMoney = 0;
         // these two properties in gram
         this.amountOfCoffee = 0;
@@ -24,8 +25,13 @@ class CoffeeMachine {
         this.pluggedIn = true;
     }
 
-    fillWithWater() {
-        this.filledWithWater = true;
+    pressStartButton() {
+        this.machineTurnedOn = true;
+    }
+    
+
+    fillWithWater(amount) {
+        this.filledWithWater += amount;
     }
 
     fillWithCoffee(amount) {
@@ -34,10 +40,9 @@ class CoffeeMachine {
         this.amountOfCoffee += amount;
     }
 
-    fillWithCups(amount) {
-        // add amount of cups to the
-        // total number of cups in the machine
-        this.numberOfCups += amount;
+    placeCup() {
+        // check if a cup has been placed
+        this.placedCup = true; 
     }
 
     // user choices
@@ -51,19 +56,10 @@ class CoffeeMachine {
         this.insertedMoney += inserted;
     }
 
-    pressStartButton() {
-        // here we will need to call
-        // a number of internal methods
-        // (se below)
-        // in the correcto order
-        // and abort if not enough coffee etc
-
-        // FOR NOW JUST RETURN "here's your coffee"
-        // if there is enough money inserted
-        if (this.insertedMoney >= this.pricePerCup) {
-            return "here's your coffee";
-        }
+    blipCreditcard(balance) {
+        
     }
+
 
     // internals
 
@@ -72,9 +68,6 @@ class CoffeeMachine {
         // heat water... etc
     }
 
-    dispenseCup() {
-
-    }
 
     dispenseCoffee() {
 
