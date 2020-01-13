@@ -4,20 +4,19 @@
 class CoffeeMachine {
 
     constructor() {
-        this.userNeedsCoffee = false;
         this.pluggedIn = false;
-        this.machineTurnedOn = false;
+        this.pressedStartButton = false;
         this.groundCoffeeAvailable = false;
         this.waterAvailable = false;
+        this.milkAvailable = false;
         this.amountOfWater = 0; // in litres
         this.amountOfCoffee = 0;
+        this.amountOfMilk = 0;
         this.placedCup = false;
-        this.choseCoffeeType = [];
+        this.choseCoffeeType = 
         this.insertedMoney = 0;
-        this.blippedCreditCard = false;
+        this.usedCreditCard = false;
         this.checkedBalance = false;
-        // these two properties in gram
-        this.amountOfCoffee = 0;
         // some settings
         this.coffeePerCup = 13; // in grams
         this.pricePerCup1 = 10; // in SEK
@@ -26,25 +25,21 @@ class CoffeeMachine {
         this.pricePerCup4 = 25;
     }
     
-    userWantsCoffee() {
-        this.userNeedsCoffee = true;
-    }
-
     plugIn() {
-        this.pluggedIn = true;
+        
     }
 
     pressStartButton() {
-        this.pressedStartButton = true;
+        
     }
       
-    checkIfIngredientsExists() {
-        this.groundCoffeeAvailable = true;
-        this.waterAvailable = true;
+    checkIfIngredientExist() {
+       
+
     }
 
     fillWithWater(amount) {
-        this.filledWithWater += amount;
+        
     }
 
     fillWithCoffee(amount) {
@@ -53,13 +48,21 @@ class CoffeeMachine {
         this.amountOfCoffee += amount;
     }
 
+    fillWithMilk() {
+
+    }
+
     placeCup() {
         // check if a cup has been placed
         this.placedCup = true;
     }
 
     chooseCoffeeType() {
-      this.choseCoffeeType = ["Black Coffee", "Caffe Latte", "Cappucino", "Espresso"];
+      this.choseCoffeeType 
+    }
+
+    checkIfEnoughCoffeeForCup() {
+        return this.amountOfCoffee >= this.coffeePerCup;
     }
     
     // user choices
@@ -67,23 +70,19 @@ class CoffeeMachine {
     insertMoney(inserted) {
         // add inserted money to total
         // money inserted so far
-        if (typeof inserted !== 'number') {
-            throw (new Error('You must insert money not ' + nonMoney));
+        if (typeof inserted !== 'number' && 'SEK') {
+            throw (new Error('You must insert money, not ' + nonMoney &&
+                'You must insert a valid swedish crown, not ' + nonSwedishCrown));
         }
         this.insertedMoney += inserted;
     }
 
-    blipCreditcard(balance) {
-        
+    useCreditcard(balance) {
+        this.checkedBalance = balance;
     }
 
 
     // internals
-
-    checkIfEnoughCoffeeForCup() {
-        return this.amountOfCoffee >= this.coffeePerCup;
-    }
-
 
     brewCoffee() {
         

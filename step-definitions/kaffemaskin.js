@@ -43,7 +43,7 @@ module.exports = function () {
     
     this.Given(/^that ground coffee is available$/, function () {
         
-        myMachine.checkIfIngredientsExists();
+        myMachine.checkIfIngredientExist();
 
         assert.strictEqual(myMachine.groundCoffeeAvailable, true, "Expected that ground coffee is available");
         
@@ -51,29 +51,24 @@ module.exports = function () {
 
     this.Given(/^that water is available$/, function () {
         
-        myMachine.checkIfIngredientsExists();
+        myMachine.checkIfIngredientExist();
 
         assert.strictEqual(myMachine.waterAvailable, true, "Expected that water is available");
         
     });
 
-    this.Given(/^that a cup has been placed$/, function () {
+    this.Given(/^that milk is available$/, function () {
         
-        myMachine.placeCup();
+        myMachine.checkIfIngredientExist();
 
-        assert.strictEqual(myMachine.placedCup, true, "Expected the user to have placed a cup"); 
-        
-    });
-
-    this.Given(/^that coffee type Black Coffee has been chosen$/, function () {
-        
-        myMachine.chooseCoffeeType();
-
-        assert.isArray(this.choseCoffeeType[0], "Expected the user to choose Black Coffee");
+        assert.strictEqual(myMachine.milkAvailable, true, "Expected that milk is available");
         
     });
 
 
+   
+
+    
 
 
 

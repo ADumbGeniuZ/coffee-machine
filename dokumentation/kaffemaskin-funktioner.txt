@@ -19,9 +19,9 @@ Om en kopp inte är placerad, så ska det stå på displayen: "Vänligen placera
 Maskinen gör inte kaffe förens en kopp är placerad
 Du måste också välja kaffetyp för att komma vidare, 
 om du inte har valt en kaffesort ska det stå: "Vänligen välj en kaffesort"
-Är det slut på antingen kaffebönor eller mjölk, 
+Är det slut på antingen kaffebönor, vatten, mjölk, 
 så ska det komma upp ett meddelande på displayen: 
-"Vänligen fyll på kaffe/mjölk för att fortsätta eller kontakta service"
+"Vänligen fyll på kaffe/mjölk/vatten för att fortsätta eller kontakta service"
 Sen så när det finns en kopp placerad, du har valt kaffesort, 
-och det finns kaffebönor och mjölk,
+och det finns kaffebönor, vatten och mjölk,
 så ska den kaffesort du valt att hällas i koppen.

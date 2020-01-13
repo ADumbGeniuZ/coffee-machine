@@ -8,12 +8,15 @@ Feature: Kaffemaskin
     because I crave caffeine.
 
     Background: Getting coffee
-        Given that I want to buy coffee
-        And that the machine is plugged in
+        Given that the machine is plugged in
         And that the user has pressed the start button
         And that ground coffee is available
         And that water is available
+        And that milk is available
         And that a cup has been placed
+        And you have used SEK only
+        And you have used either coins or creditcard
+        Then you get a cup of coffee
 
 
     Scenario Outline: Paying with coins
@@ -95,8 +98,39 @@ Feature: Kaffemaskin
 
 
 
+    Scenario: User doesn't have enough balance on their creditcard
+        Given that the user chooses to pay with a creditcard
+        And the user doesn't have enough balance on the card
+        Then the user gets an error message
+
+
+    Scenario Outline: The machine doesn't have enough ingredients for desired beverage
+        Given that the user has selected <beverage>
+        And there is not enough of <ingredient>
+        When you press the <beverage> button
+        Then the machine displays <error>
+
+        Examples: Beverages
+            | beverage     | ingredient    | error                                     |
+            | Black Coffee | ground coffee | "not enough ground coffee, please refill" |
+            | Caffe Latte  | water         | "not enough water, please refill"         |
+            | Cappucino    | milk          | "not enough milk, please refill"          |
+            | Espresso     |               |                                           |
 
 
 
+    Scenario: There is not a cup placed
+        Given that you need a cup in order for the machine to make the coffee
+        And a cup has not been placed
+        Then the machine will stop and prompt the user to place a cup
+
+
+    Scenario: User chose the wrong coffee type
+
+    
+    Scenario: User chose the wrong payment method
+
+
+    Scenario: User payed too much using coins as payment method
 
 

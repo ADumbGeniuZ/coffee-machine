@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="1" skipped="8">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0014525">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0006876">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001613">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0002714">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0002337">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0003577">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0002344">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001335">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0002033">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000904">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000231">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0001701">
         </testcase>
-        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins" time="0.0003233">
-            <failure message="TypeError: Cannot read property &apos;0&apos; of undefined">TypeError: Cannot read property &apos;0&apos; of undefined
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:72:44)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -55,27 +58,30 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="1" skipped="8">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000892">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000103">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000821">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000685">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001021">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000927">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000454">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000106399">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000427">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000039099">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000458">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000413">
         </testcase>
-        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins" time="0.0000563">
-            <failure message="TypeError: Cannot read property &apos;0&apos; of undefined">TypeError: Cannot read property &apos;0&apos; of undefined
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:72:44)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -110,27 +116,30 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="1" skipped="8">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000059701">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000064101">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000119799">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000078501">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000092501">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001355">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000741">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000783">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000103199">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000047401">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000366">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000376">
         </testcase>
-        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins" time="0.0000628">
-            <failure message="TypeError: Cannot read property &apos;0&apos; of undefined">TypeError: Cannot read property &apos;0&apos; of undefined
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:72:44)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -165,27 +174,30 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="1" skipped="8">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000605">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000547">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000082">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000905">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000079599">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001724">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000532">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001171">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000066099">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0017892">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000041401">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000039299">
         </testcase>
-        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins" time="0.000057299">
-            <failure message="TypeError: Cannot read property &apos;0&apos; of undefined">TypeError: Cannot read property &apos;0&apos; of undefined
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:72:44)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -220,22 +232,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000069699">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000088799">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001075">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000112301">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000080201">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0002885">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000851">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000806">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000505">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000062">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000484">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000477">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -274,22 +290,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000962">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000664">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000709">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001228">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000907">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000978">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000504">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000058099">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000038599">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000042">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000369">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000036799">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -328,22 +348,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000668">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000061901">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000823">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000922">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000104">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000074401">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000062501">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000048799">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000089501">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000584">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000895">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000346">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -382,22 +406,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000529">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000734">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000701">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001279">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000522">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000823">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000057399">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000446">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000062">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000357999">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0001251">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000047">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -436,22 +464,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000055">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000047499">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000088401">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000824">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.00007">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000097999">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000458">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0010363">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000401">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000071001">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000348">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000433">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -490,22 +522,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000575">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000065101">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000858">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000076101">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000117301">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000069401">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000624">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000548">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000059099">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000056999">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000419">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000346">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -544,22 +580,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000864">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000629">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000814">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000068001">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000747">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000073799">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000595">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000083201">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000391">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000678">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000607">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000483">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -598,22 +638,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000512">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000069301">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000764">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000094901">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000735">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000138901">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001323">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000835">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000062">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000787">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000414">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000449">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -652,22 +696,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000874">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000608">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000683">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000894">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001014">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000797">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000064">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000796">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000045099">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000822">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000037301">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000085501">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -706,22 +754,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000747">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000046">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001014">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.00008">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000063401">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000053999">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001177">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000558">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000052399">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000075799">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0000367">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000634">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -760,76 +812,84 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000681">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0000743">
+        </testcase>
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000675">
+        </testcase>
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001181">
+        </testcase>
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001001">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000754">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000075999">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="kaffemaskin;paying-with-coins" tests="16" failures="0" skipped="10">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.000052299">
         </testcase>
         <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000724">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.00009">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000088101">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.00006">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000563">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000565">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000062">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000091">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000041799">
         </testcase>
-        <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
             </skipped>
-        </testcase>
-        <testcase name="And the payment method coins has been chosen" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the user inserts 10 kr coin" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 5 kr coin" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 2 kr coin" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts 0 kr coin" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="15" failures="0" skipped="9">
-        <properties>
-            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-coins" time="0.0001255">
-        </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000077401">
-        </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000793">
-        </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000535">
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000837">
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000036701">
         </testcase>
         <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -868,27 +928,30 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="1" skipped="3">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000675">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000058101">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000741">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000079399">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0001069">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0001571">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000104399">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000095299">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000458">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0001077">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000359">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000055099">
         </testcase>
-        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard" time="0.0000688">
-            <failure message="TypeError: Cannot read property &apos;0&apos; of undefined">TypeError: Cannot read property &apos;0&apos; of undefined
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:72:44)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="When the payment method creditcard has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -903,27 +966,30 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="1" skipped="3">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000637">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0001034">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000789">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000673">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000539">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000103601">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000643">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000934">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000408">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000047901">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000060599">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000061799">
         </testcase>
-        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard" time="0.0001105">
-            <failure message="TypeError: Cannot read property &apos;0&apos; of undefined">TypeError: Cannot read property &apos;0&apos; of undefined
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:72:44)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="When the payment method creditcard has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -938,27 +1004,30 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="1" skipped="3">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000437">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000876">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000062901">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0001097">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000391">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000197299">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000611">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000806">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000046">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000050399">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000449">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000422">
         </testcase>
-        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard" time="0.0001404">
-            <failure message="TypeError: Cannot read property &apos;0&apos; of undefined">TypeError: Cannot read property &apos;0&apos; of undefined
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:72:44)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="When the payment method creditcard has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -973,27 +1042,30 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="1" skipped="3">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000461">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000081301">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000068901">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000779">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0001693">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000092001">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000529">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000082">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0001126">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000047099">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000365">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000362">
         </testcase>
-        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard" time="0.000075999">
-            <failure message="TypeError: Cannot read property &apos;0&apos; of undefined">TypeError: Cannot read property &apos;0&apos; of undefined
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:72:44)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that coffee type Black Coffee has been chosen" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="When the payment method creditcard has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1008,22 +1080,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000045199">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000726">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000949">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000083799">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000118199">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000071901">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000988">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0015675">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000478">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000988">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000036699">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000041301">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1042,22 +1118,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000678">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000049401">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000621">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000638">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000557">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000451">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000071499">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000619">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000634">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000054699">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000596">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000356">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1076,22 +1156,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000431">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000078399">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0001076">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0001049">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000071799">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000463">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000791">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000567">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0001056">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000079699">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000042801">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000037999">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1110,22 +1194,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000558">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000527">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000539">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000764">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000571">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000052801">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000535">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000603">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000877">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000489">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000641">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000058699">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Caffe Latte has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1144,22 +1232,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000578">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000043501">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000568">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000911">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000789">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000783">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000886">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000567">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000625">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000444">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000487">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000415">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1178,22 +1270,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000737">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000401">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000768">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000064101">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000102599">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000675">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000055301">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000083899">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000922">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000692">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000395">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000498">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1212,22 +1308,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000615">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000045799">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000062599">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000104001">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000072">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000542">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000724">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000633">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000498">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000426">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000473">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000033599">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1246,22 +1346,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000537">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000412">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000869">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0001235">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000047999">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000664">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000563">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000818">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000622">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000542">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000375">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000405">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Cappucino has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1280,22 +1384,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000586">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000802">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000144499">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000503">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000461">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0001079">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000386">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000349">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000334">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000422">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000029">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000365">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1314,22 +1422,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000703">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.000048599">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000819">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000576">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0001969">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000589">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000451">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000555">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000043501">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000763">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000329">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000052">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1348,22 +1460,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000443">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000432">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000058201">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000945">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000512">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000597">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000688">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000334">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000374">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000371">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000302">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000041401">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1382,22 +1498,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="10" failures="0" skipped="4">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="11" failures="0" skipped="5">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000555">
+        <testcase name="Given that I want to buy coffee" classname="kaffemaskin;paying-with-creditcard" time="0.0000638">
         </testcase>
-        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000057">
+        <testcase name="And that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000749">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000063201">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000846">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000476">
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000825">
         </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000867">
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000553">
         </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0000374">
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000595">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
+            <skipped message="">
+            </skipped>
         </testcase>
         <testcase name="Given that coffee type Espresso has been chosen" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
