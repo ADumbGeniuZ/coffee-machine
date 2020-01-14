@@ -13,7 +13,8 @@ class CoffeeMachine {
         this.amountOfCoffee = 0;
         this.amountOfMilk = 0;
         this.placedCup = false;
-        this.choseCoffeeType = 
+        this.choseCoffeeType = "";
+        this.pressedCancelButton = false; 
         this.insertedMoney = 0;
         this.usedCreditCard = false;
         this.checkedBalance = false;
@@ -80,6 +81,11 @@ class CoffeeMachine {
     useCreditcard(balance) {
         this.checkedBalance = balance;
     }
+
+    pressCancelButton() {
+
+    }
+
 
 
     // internals

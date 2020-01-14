@@ -53,6 +53,8 @@
         insertedMoney(number)
         initial value: 0
 
+        pressedCancelButton(boolean)
+        initial value: 0
 
         usedCreditCard(boolean)
         initial value: false
@@ -111,6 +113,12 @@
 
     useCreditcard()
     returns true if enough balance 
+
+     
+     pressCancelButton() 
+        
+    
+
         
     
 
