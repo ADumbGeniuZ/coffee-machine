@@ -20,6 +20,7 @@ class CoffeeMachine {
         this.checkedBalance = false;
         // some settings
         this.coffeePerCup = 13; // in grams
+        this.waterPerCup = 
         this.pricePerCup1 = 10; // in SEK
         this.pricePerCup2 = 15;
         this.pricePerCup3 = 20;
@@ -37,15 +38,17 @@ class CoffeeMachine {
     }
       
     checkIfGroundCoffeeExists() {
-        this.groundCoffeeAvailable = true;
+        return amountOfCoffee >= this.coffeePerCup
     }
 
     checkIfWaterExists() {
-        this.waterAvailable = true;
+        return this.amountOfWater >= this.coffeePerCup
     }
 
-    checkIfMilkExists() {
-        this.milkAvailable = true;
+    checkIfMilkExists(chosen) {
+        if (typeof chosen !== "Caffe Latte", "Cappucino", "Espresso")
+            throw (new Error('Milk is not needed for this beverage'));
+        
     }
 
     fillWithWater(amount) {
@@ -75,10 +78,6 @@ class CoffeeMachine {
 
     chooseCoffeeType() {
         this.choseCoffeeType = "Black Coffee", "Caffe Latte", "Cappucino", "Espresso";
-    }
-
-    checkIfEnoughCoffeeForCup() {
-        return this.amountOfCoffee >= this.coffeePerCup;
     }
     
     // user choices

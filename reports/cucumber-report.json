@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 659800
+              "duration": 1255999
             },
             "line": 11,
             "match": {
@@ -27,7 +27,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 146700
+              "duration": 194900
             },
             "line": 12,
             "match": {
@@ -39,8 +39,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 161000
+              "status": "failed",
+              "duration": 146199,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -52,12 +53,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 129900
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -65,12 +65,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 170100
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -78,12 +77,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 128000
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -91,13 +89,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 149699,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -204,7 +200,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1752600300
+              "duration": 1714922800
             },
             "hidden": true,
             "embeddings": [
@@ -233,7 +229,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 62301
+              "duration": 165499
             },
             "line": 11,
             "match": {
@@ -246,7 +242,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 49200
+              "duration": 116800
             },
             "line": 12,
             "match": {
@@ -258,8 +254,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 49101
+              "status": "failed",
+              "duration": 149301,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -271,12 +268,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 42599
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -284,12 +280,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 51501
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -297,12 +292,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 50401
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -310,13 +304,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 79600,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -423,7 +415,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1646390301
+              "duration": 1650025600
             },
             "hidden": true,
             "embeddings": [
@@ -452,7 +444,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 120300
+              "duration": 110800
             },
             "line": 11,
             "match": {
@@ -465,7 +457,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 81400
+              "duration": 159299
             },
             "line": 12,
             "match": {
@@ -477,8 +469,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 70800
+              "status": "failed",
+              "duration": 219001,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -490,12 +483,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 65400
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -503,12 +495,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 62100
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -516,12 +507,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 69099
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -529,13 +519,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 85501,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -642,7 +630,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1628223699
+              "duration": 1637562901
             },
             "hidden": true,
             "embeddings": [
@@ -671,7 +659,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 85699
+              "duration": 75200
             },
             "line": 11,
             "match": {
@@ -684,7 +672,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 132300
+              "duration": 98600
             },
             "line": 12,
             "match": {
@@ -696,8 +684,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 77801
+              "status": "failed",
+              "duration": 82300,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -709,12 +698,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 62401
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -722,12 +710,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 52400
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -735,12 +722,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 46600
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -748,13 +734,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 69300,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -861,7 +845,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1629098300
+              "duration": 1632520701
             },
             "hidden": true,
             "embeddings": [
@@ -890,7 +874,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 73499
+              "duration": 65700
             },
             "line": 11,
             "match": {
@@ -903,7 +887,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 86200
+              "duration": 102100
             },
             "line": 12,
             "match": {
@@ -915,8 +899,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 76899
+              "status": "failed",
+              "duration": 106601,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -928,12 +913,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 49901
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -941,12 +925,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 59200
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -954,12 +937,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 38500
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -967,13 +949,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 54700,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -1080,7 +1060,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1633902500
+              "duration": 1637697200
             },
             "hidden": true,
             "embeddings": [
@@ -1109,7 +1089,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 161201
+              "duration": 74300
             },
             "line": 11,
             "match": {
@@ -1122,7 +1102,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 89901
+              "duration": 82200
             },
             "line": 12,
             "match": {
@@ -1134,8 +1114,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 50201
+              "status": "failed",
+              "duration": 226099,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -1147,12 +1128,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 73799
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -1160,12 +1140,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 53400
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -1173,12 +1152,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 57400
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -1186,13 +1164,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 62600,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -1299,7 +1275,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1639526000
+              "duration": 1661356400
             },
             "hidden": true,
             "embeddings": [
@@ -1328,7 +1304,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 88900
+              "duration": 124100
             },
             "line": 11,
             "match": {
@@ -1341,7 +1317,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 83001
+              "duration": 88800
             },
             "line": 12,
             "match": {
@@ -1353,8 +1329,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 113701
+              "status": "failed",
+              "duration": 67201,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -1366,12 +1343,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 71501
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -1379,12 +1355,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 54600
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -1392,12 +1367,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 51800
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -1405,13 +1379,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 90900,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -1518,7 +1490,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1628186099
+              "duration": 1669527499
             },
             "hidden": true,
             "embeddings": [
@@ -1547,7 +1519,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 63000
+              "duration": 61000
             },
             "line": 11,
             "match": {
@@ -1560,7 +1532,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 86600
+              "duration": 107801
             },
             "line": 12,
             "match": {
@@ -1572,8 +1544,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 147600
+              "status": "failed",
+              "duration": 142701,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -1585,12 +1558,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 71799
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -1598,12 +1570,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 61100
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -1611,12 +1582,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 36300
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -1624,13 +1594,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 56599,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -1737,7 +1705,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1651085300
+              "duration": 1648886099
             },
             "hidden": true,
             "embeddings": [
@@ -1766,7 +1734,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 96400
+              "duration": 60799
             },
             "line": 11,
             "match": {
@@ -1779,7 +1747,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 82600
+              "duration": 70200
             },
             "line": 12,
             "match": {
@@ -1791,8 +1759,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 73599
+              "status": "failed",
+              "duration": 142999,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -1804,12 +1773,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 91901
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -1817,12 +1785,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 80300
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -1830,12 +1797,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 130800
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -1843,13 +1809,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 99001,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -1956,7 +1920,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1655016599
+              "duration": 1637135600
             },
             "hidden": true,
             "embeddings": [
@@ -1985,7 +1949,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 79000
+              "duration": 52301
             },
             "line": 11,
             "match": {
@@ -1998,7 +1962,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 99100
+              "duration": 110000
             },
             "line": 12,
             "match": {
@@ -2010,8 +1974,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 48401
+              "status": "failed",
+              "duration": 91700,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -2023,12 +1988,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 120700
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -2036,12 +2000,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 64600
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -2049,12 +2012,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 40200
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -2062,13 +2024,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 52099,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -2175,7 +2135,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1627328599
+              "duration": 1634013201
             },
             "hidden": true,
             "embeddings": [
@@ -2204,7 +2164,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 71001
+              "duration": 109200
             },
             "line": 11,
             "match": {
@@ -2217,7 +2177,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 167800
+              "duration": 87199
             },
             "line": 12,
             "match": {
@@ -2229,8 +2189,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 74699
+              "status": "failed",
+              "duration": 73900,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -2242,12 +2203,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 45400
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -2255,12 +2215,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 46301
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -2268,12 +2227,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 40599
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -2281,13 +2239,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 63600,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -2394,7 +2350,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1675192400
+              "duration": 1624978301
             },
             "hidden": true,
             "embeddings": [
@@ -2423,7 +2379,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 90700
+              "duration": 68700
             },
             "line": 11,
             "match": {
@@ -2436,7 +2392,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 74400
+              "duration": 61799
             },
             "line": 12,
             "match": {
@@ -2448,8 +2404,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 79101
+              "status": "failed",
+              "duration": 85001,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -2461,12 +2418,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 55200
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -2474,12 +2430,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 107901
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -2487,12 +2442,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 43900
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -2500,13 +2454,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 57000,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -2613,7 +2565,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1640972600
+              "duration": 1664472299
             },
             "hidden": true,
             "embeddings": [
@@ -2642,7 +2594,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 70400
+              "duration": 72800
             },
             "line": 11,
             "match": {
@@ -2655,7 +2607,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 60700
+              "duration": 65900
             },
             "line": 12,
             "match": {
@@ -2667,8 +2619,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 50400
+              "status": "failed",
+              "duration": 192099,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -2680,12 +2633,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 31401
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -2693,12 +2645,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 30800
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -2706,12 +2657,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 32101
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -2719,13 +2669,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 54901,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -2832,7 +2780,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1620292399
+              "duration": 1632031600
             },
             "hidden": true,
             "embeddings": [
@@ -2861,7 +2809,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 84799
+              "duration": 51800
             },
             "line": 11,
             "match": {
@@ -2874,7 +2822,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 59100
+              "duration": 74800
             },
             "line": 12,
             "match": {
@@ -2886,8 +2834,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 50100
+              "status": "failed",
+              "duration": 154300,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -2899,12 +2848,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 131700
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -2912,12 +2860,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 55601
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -2925,12 +2872,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 66499
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -2938,13 +2884,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 70000,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -3051,7 +2995,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1641157000
+              "duration": 1656806899
             },
             "hidden": true,
             "embeddings": [
@@ -3080,7 +3024,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 71800
+              "duration": 45100
             },
             "line": 11,
             "match": {
@@ -3093,7 +3037,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 55300
+              "duration": 35100
             },
             "line": 12,
             "match": {
@@ -3105,8 +3049,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 87800
+              "status": "failed",
+              "duration": 91400,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -3118,12 +3063,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 59300
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -3131,12 +3075,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 86699
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -3144,12 +3087,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 98701
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -3157,13 +3099,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 107499,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -3270,7 +3210,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1655056600
+              "duration": 1629545800
             },
             "hidden": true,
             "embeddings": [
@@ -3299,7 +3239,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 70901
+              "duration": 61100
             },
             "line": 11,
             "match": {
@@ -3312,7 +3252,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 47400
+              "duration": 116799
             },
             "line": 12,
             "match": {
@@ -3324,8 +3264,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 36100
+              "status": "failed",
+              "duration": 182001,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -3337,12 +3278,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 33499
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -3350,12 +3290,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 33600
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -3363,12 +3302,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 53700
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -3376,13 +3314,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 106600,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -3489,7 +3425,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1636992501
+              "duration": 1662433600
             },
             "hidden": true,
             "embeddings": [
@@ -3518,7 +3454,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 82701
+              "duration": 52200
             },
             "line": 11,
             "match": {
@@ -3531,7 +3467,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 146099
+              "duration": 65601
             },
             "line": 12,
             "match": {
@@ -3543,8 +3479,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 91400
+              "status": "failed",
+              "duration": 214901,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -3556,12 +3493,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 81499
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -3569,12 +3505,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 69100
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -3582,12 +3517,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 73100
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -3595,13 +3529,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 65899,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -3663,7 +3595,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1851210599
+              "duration": 1628478801
             },
             "hidden": true,
             "embeddings": [
@@ -3692,7 +3624,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 81200
+              "duration": 57300
             },
             "line": 11,
             "match": {
@@ -3705,7 +3637,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 69100
+              "duration": 102201
             },
             "line": 12,
             "match": {
@@ -3717,8 +3649,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 84100
+              "status": "failed",
+              "duration": 129000,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -3730,12 +3663,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 91200
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -3743,12 +3675,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 121999
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -3756,12 +3687,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 78899
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -3769,13 +3699,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 153401,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -3837,7 +3765,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1685885000
+              "duration": 1645785599
             },
             "hidden": true,
             "embeddings": [
@@ -3866,7 +3794,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 46899
+              "duration": 88900
             },
             "line": 11,
             "match": {
@@ -3879,7 +3807,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 63200
+              "duration": 80300
             },
             "line": 12,
             "match": {
@@ -3891,8 +3819,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 87400
+              "status": "failed",
+              "duration": 135001,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -3904,12 +3833,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 80999
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -3917,12 +3845,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 78400
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -3930,12 +3857,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 36300
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -3943,13 +3869,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 65901,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -4011,7 +3935,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2164243901
+              "duration": 1641938799
             },
             "hidden": true,
             "embeddings": [
@@ -4040,7 +3964,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 61100
+              "duration": 43200
             },
             "line": 11,
             "match": {
@@ -4053,7 +3977,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 79600
+              "duration": 52999
             },
             "line": 12,
             "match": {
@@ -4065,8 +3989,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 71201
+              "status": "failed",
+              "duration": 149100,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -4078,12 +4003,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 80300
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -4091,12 +4015,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 107100
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -4104,12 +4027,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 88600
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -4117,13 +4039,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 165400,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -4185,7 +4105,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1638001000
+              "duration": 1646220300
             },
             "hidden": true,
             "embeddings": [
@@ -4214,7 +4134,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 71000
+              "duration": 60700
             },
             "line": 11,
             "match": {
@@ -4227,7 +4147,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 73500
+              "duration": 99900
             },
             "line": 12,
             "match": {
@@ -4239,8 +4159,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 103899
+              "status": "failed",
+              "duration": 216200,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -4252,12 +4173,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 135600
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -4265,12 +4185,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 101799
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -4278,12 +4197,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 79500
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -4291,13 +4209,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 108401,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -4359,7 +4275,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1648872800
+              "duration": 1641668299
             },
             "hidden": true,
             "embeddings": [
@@ -4388,7 +4304,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 65000
+              "duration": 76600
             },
             "line": 11,
             "match": {
@@ -4401,7 +4317,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 60101
+              "duration": 59400
             },
             "line": 12,
             "match": {
@@ -4413,8 +4329,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 69899
+              "status": "failed",
+              "duration": 235299,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -4426,12 +4343,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 65500
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -4439,12 +4355,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 96499
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -4452,12 +4367,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 61901
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -4465,13 +4379,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 113300,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -4533,7 +4445,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2212733900
+              "duration": 1648870300
             },
             "hidden": true,
             "embeddings": [
@@ -4562,7 +4474,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 71200
+              "duration": 67200
             },
             "line": 11,
             "match": {
@@ -4575,7 +4487,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 56599
+              "duration": 77601
             },
             "line": 12,
             "match": {
@@ -4587,8 +4499,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 69100
+              "status": "failed",
+              "duration": 155099,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -4600,12 +4513,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 76801
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -4613,12 +4525,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 59300
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -4626,12 +4537,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 58600
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -4639,13 +4549,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 104701,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -4707,7 +4615,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2166312400
+              "duration": 1643376700
             },
             "hidden": true,
             "embeddings": [
@@ -4736,7 +4644,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 64101
+              "duration": 48700
             },
             "line": 11,
             "match": {
@@ -4749,7 +4657,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 35799
+              "duration": 67200
             },
             "line": 12,
             "match": {
@@ -4761,8 +4669,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 75099
+              "status": "failed",
+              "duration": 86100,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -4774,12 +4683,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 78600
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -4787,12 +4695,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 78000
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -4800,12 +4707,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 58700
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -4813,13 +4719,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 102700,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -4881,7 +4785,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1656145900
+              "duration": 1653454699
             },
             "hidden": true,
             "embeddings": [
@@ -4910,7 +4814,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 81800
+              "duration": 47300
             },
             "line": 11,
             "match": {
@@ -4923,7 +4827,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 58800
+              "duration": 63700
             },
             "line": 12,
             "match": {
@@ -4935,8 +4839,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 157599
+              "status": "failed",
+              "duration": 149699,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -4948,12 +4853,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 71300
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -4961,12 +4865,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 99400
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -4974,12 +4877,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 39600
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -4987,13 +4889,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 68800,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -5055,7 +4955,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1647442199
+              "duration": 1629266001
             },
             "hidden": true,
             "embeddings": [
@@ -5084,7 +4984,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 63000
+              "duration": 77000
             },
             "line": 11,
             "match": {
@@ -5097,7 +4997,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 221800
+              "duration": 45400
             },
             "line": 12,
             "match": {
@@ -5109,8 +5009,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 54900
+              "status": "failed",
+              "duration": 68400,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -5122,12 +5023,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 75700
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -5135,12 +5035,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 39300
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -5148,12 +5047,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 36500
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -5161,13 +5059,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 65499,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -5229,7 +5125,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1637907000
+              "duration": 1631477400
             },
             "hidden": true,
             "embeddings": [
@@ -5258,7 +5154,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 101100
+              "duration": 41800
             },
             "line": 11,
             "match": {
@@ -5271,7 +5167,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 51400
+              "duration": 56800
             },
             "line": 12,
             "match": {
@@ -5283,8 +5179,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 120699
+              "status": "failed",
+              "duration": 177400,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -5296,12 +5193,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 116001
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -5309,12 +5205,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 69301
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -5322,12 +5217,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 56801
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -5335,13 +5229,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 85800,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -5403,7 +5295,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1644863400
+              "duration": 1683965699
             },
             "hidden": true,
             "embeddings": [
@@ -5432,7 +5324,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 73001
+              "duration": 47199
             },
             "line": 11,
             "match": {
@@ -5445,7 +5337,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 325200
+              "duration": 89300
             },
             "line": 12,
             "match": {
@@ -5457,8 +5349,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 46201
+              "status": "failed",
+              "duration": 171800,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -5470,12 +5363,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 37000
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -5483,12 +5375,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 43500
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -5496,12 +5387,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 28300
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -5509,13 +5399,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 89601,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -5577,7 +5465,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1680564399
+              "duration": 1667602501
             },
             "hidden": true,
             "embeddings": [
@@ -5606,7 +5494,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 55701
+              "duration": 64601
             },
             "line": 11,
             "match": {
@@ -5619,7 +5507,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 68500
+              "duration": 65699
             },
             "line": 12,
             "match": {
@@ -5631,8 +5519,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 67900
+              "status": "failed",
+              "duration": 76699,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -5644,12 +5533,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 74700
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -5657,12 +5545,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 58300
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -5670,12 +5557,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 42799
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -5683,13 +5569,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 83199,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -5751,7 +5635,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1637618501
+              "duration": 1655016801
             },
             "hidden": true,
             "embeddings": [
@@ -5780,7 +5664,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 53700
+              "duration": 43400
             },
             "line": 11,
             "match": {
@@ -5793,7 +5677,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 64300
+              "duration": 49600
             },
             "line": 12,
             "match": {
@@ -5805,8 +5689,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 102000
+              "status": "failed",
+              "duration": 114700,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -5818,12 +5703,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 72600
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -5831,12 +5715,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 60099
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -5844,12 +5727,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 66200
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -5857,13 +5739,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 68900,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -5925,7 +5805,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1633777101
+              "duration": 1646643100
             },
             "hidden": true,
             "embeddings": [
@@ -5954,7 +5834,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 61500
+              "duration": 56000
             },
             "line": 11,
             "match": {
@@ -5967,7 +5847,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 105100
+              "duration": 96300
             },
             "line": 12,
             "match": {
@@ -5979,8 +5859,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 89500
+              "status": "failed",
+              "duration": 127799,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -5992,12 +5873,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 48100
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -6005,12 +5885,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 60099
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -6018,12 +5897,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 39399
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -6031,13 +5909,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 71999,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -6099,7 +5975,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1648631400
+              "duration": 1653302399
             },
             "hidden": true,
             "embeddings": [
@@ -6128,7 +6004,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 47599
+              "duration": 42200
             },
             "line": 11,
             "match": {
@@ -6141,7 +6017,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 64700
+              "duration": 58700
             },
             "line": 12,
             "match": {
@@ -6153,8 +6029,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 46999
+              "status": "failed",
+              "duration": 68299,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -6166,12 +6043,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 50401
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -6179,12 +6055,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 44199
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -6192,12 +6067,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 48399
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -6205,13 +6079,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 79601,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -6273,7 +6145,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1656294000
+              "duration": 1648521801
             },
             "hidden": true,
             "embeddings": [
@@ -6302,7 +6174,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 103100
+              "duration": 57400
             },
             "line": 11,
             "match": {
@@ -6315,7 +6187,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 59999
+              "duration": 92200
             },
             "line": 12,
             "match": {
@@ -6327,8 +6199,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 59701
+              "status": "failed",
+              "duration": 138100,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -6340,12 +6213,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 94499
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -6353,12 +6225,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 84000
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -6366,12 +6237,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 59000
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -6379,13 +6249,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 104600,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -6438,7 +6306,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1647831900
+              "duration": 1663933100
             },
             "hidden": true,
             "embeddings": [
@@ -6467,7 +6335,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 90999
+              "duration": 50500
             },
             "line": 11,
             "match": {
@@ -6480,7 +6348,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 61399
+              "duration": 56700
             },
             "line": 12,
             "match": {
@@ -6492,8 +6360,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 85300
+              "status": "failed",
+              "duration": 134499,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -6505,12 +6374,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 63100
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -6518,12 +6386,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 53299
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -6531,12 +6398,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 45100
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -6544,13 +6410,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 106100,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -6612,7 +6476,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1659298000
+              "duration": 1622545701
             },
             "hidden": true,
             "embeddings": [
@@ -6641,7 +6505,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 53600
+              "duration": 72301
             },
             "line": 11,
             "match": {
@@ -6654,7 +6518,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 61399
+              "duration": 109299
             },
             "line": 12,
             "match": {
@@ -6666,8 +6530,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 74900
+              "status": "failed",
+              "duration": 161600,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -6679,12 +6544,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 56699
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -6692,12 +6556,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 48300
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -6705,12 +6568,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 39301
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -6718,13 +6580,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 64900,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -6786,7 +6646,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1682041499
+              "duration": 1638617201
             },
             "hidden": true,
             "embeddings": [
@@ -6815,7 +6675,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 39199
+              "duration": 81400
             },
             "line": 11,
             "match": {
@@ -6828,7 +6688,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 74200
+              "duration": 95800
             },
             "line": 12,
             "match": {
@@ -6840,8 +6700,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 62199
+              "status": "failed",
+              "duration": 129001,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -6853,12 +6714,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 56900
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -6866,12 +6726,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 54099
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -6879,12 +6738,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 36300
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -6892,13 +6750,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 115600,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -6960,7 +6816,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1653362100
+              "duration": 1656052800
             },
             "hidden": true,
             "embeddings": [
@@ -6989,7 +6845,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 42500
+              "duration": 871200
             },
             "line": 11,
             "match": {
@@ -7002,7 +6858,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 51301
+              "duration": 73500
             },
             "line": 12,
             "match": {
@@ -7014,8 +6870,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 60001
+              "status": "failed",
+              "duration": 211199,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -7027,12 +6884,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 64400
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -7040,12 +6896,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 54200
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -7053,12 +6908,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 87200
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -7066,13 +6920,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 108100,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -7134,7 +6986,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1642739599
+              "duration": 1635516200
             },
             "hidden": true,
             "embeddings": [
@@ -7163,7 +7015,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 44799
+              "duration": 60100
             },
             "line": 11,
             "match": {
@@ -7176,7 +7028,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 115700
+              "duration": 61300
             },
             "line": 12,
             "match": {
@@ -7188,8 +7040,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 87000
+              "status": "failed",
+              "duration": 135199,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -7201,12 +7054,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 73201
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -7214,12 +7066,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 36999
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -7227,12 +7078,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 28600
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -7240,13 +7090,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 59300,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -7299,7 +7147,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1656471600
+              "duration": 1678247201
             },
             "hidden": true,
             "embeddings": [
@@ -7328,7 +7176,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 42200
+              "duration": 53500
             },
             "line": 11,
             "match": {
@@ -7341,7 +7189,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 74901
+              "duration": 81299
             },
             "line": 12,
             "match": {
@@ -7353,8 +7201,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 41300
+              "status": "failed",
+              "duration": 185601,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -7366,12 +7215,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 70000
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -7379,12 +7227,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 46500
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -7392,12 +7239,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 33801
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -7405,13 +7251,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 90599,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -7473,7 +7317,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1629274500
+              "duration": 1635893500
             },
             "hidden": true,
             "embeddings": [
@@ -7502,7 +7346,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 55701
+              "duration": 40000
             },
             "line": 11,
             "match": {
@@ -7515,7 +7359,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 46000
+              "duration": 66600
             },
             "line": 12,
             "match": {
@@ -7527,8 +7371,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 67600
+              "status": "failed",
+              "duration": 94700,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -7540,12 +7385,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 74100
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -7553,12 +7397,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 47099
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -7566,12 +7409,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 38300
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -7579,13 +7421,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 68600,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -7647,7 +7487,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1626328400
+              "duration": 1675376400
             },
             "hidden": true,
             "embeddings": [
@@ -7676,7 +7516,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 38000
+              "duration": 47100
             },
             "line": 11,
             "match": {
@@ -7689,7 +7529,7 @@
             "name": "that the user has pressed the start button",
             "result": {
               "status": "passed",
-              "duration": 63901
+              "duration": 88400
             },
             "line": 12,
             "match": {
@@ -7701,8 +7541,9 @@
             "keyword": "And ",
             "name": "that ground coffee is available",
             "result": {
-              "status": "passed",
-              "duration": 114400
+              "status": "failed",
+              "duration": 136401,
+              "error_message": "ReferenceError: amountOfCoffee is not defined\n    at CoffeeMachine.checkIfGroundCoffeeExists (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:41:9)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:37:36)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
             },
             "line": 13,
             "match": {
@@ -7714,12 +7555,11 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 57800
+              "status": "skipped"
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:43"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:48"
             }
           },
           {
@@ -7727,12 +7567,11 @@
             "keyword": "And ",
             "name": "that milk is available",
             "result": {
-              "status": "passed",
-              "duration": 36600
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:51"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:61"
             }
           },
           {
@@ -7740,12 +7579,11 @@
             "keyword": "And ",
             "name": "that a cup has been placed",
             "result": {
-              "status": "passed",
-              "duration": 31800
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:59"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:72"
             }
           },
           {
@@ -7753,13 +7591,11 @@
             "keyword": "And ",
             "name": "you have used SEK only",
             "result": {
-              "status": "failed",
-              "duration": 61600,
-              "error_message": "ReferenceError: nonMoney is not defined\n    at CoffeeMachine.insertMoney (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\index.js:90:62)\n    at createWorld.<anonymous> (C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:69:19)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:67"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\kaffemaskin\\step-definitions\\kaffemaskin.js:83"
             }
           },
           {
@@ -7812,7 +7648,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1628649199
+              "duration": 1650950500
             },
             "hidden": true,
             "embeddings": [

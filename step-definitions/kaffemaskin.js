@@ -37,7 +37,7 @@ module.exports = function () {
         assert.deepEqual(myMachine.checkIfGroundCoffeeExists(), false,
             "Expected the machine to not have enough ground coffee");
         
-            fillWithCoffee(3000) // grams
+            myMachine.fillWithCoffee(3000) // grams
         
 
         assert.deepEqual(myMachine.checkIfGroundCoffeeExists(), true,
