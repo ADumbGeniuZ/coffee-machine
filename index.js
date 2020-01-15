@@ -9,11 +9,11 @@ class CoffeeMachine {
         this.groundCoffeeAvailable = false;
         this.waterAvailable = false;
         this.milkAvailable = false;
-        this.amountOfWater = 0; // in litres
-        this.amountOfCoffee = 0;
-        this.amountOfMilk = 0;
+        this.amountOfWater = 50; // in litres
+        this.amountOfCoffee = 2000; // in grams
+        this.amountOfMilk = 25; // in litres
         this.placedCup = false;
-        this.choseCoffeeType = "";
+        this.chosenCoffeeType = "";
         this.pressedCancelButton = false; 
         this.insertedMoney = 0;
         this.usedCreditCard = false;
@@ -28,38 +28,53 @@ class CoffeeMachine {
     
     plugIn() {
         
+        this.pluggedIn = true;
+
     }
 
     pressStartButton() {
-        
+        this.pressedStartButton = true;
     }
       
-    checkIfIngredientExist() {
-       
+    checkIfGroundCoffeeExists() {
+        this.groundCoffeeAvailable = true;
+    }
 
+    checkIfWaterExists() {
+        this.waterAvailable = true;
+    }
+
+    checkIfMilkExists() {
+        this.milkAvailable = true;
     }
 
     fillWithWater(amount) {
+         this.amountOfWater += amount;
         
+
     }
 
     fillWithCoffee(amount) {
-        // add amount to total amount of 
-        // ground coffee in the machine
-        this.amountOfCoffee += amount;
+         this.amountOfCoffee += amount;
+        
+        
     }
 
-    fillWithMilk() {
-
+    fillWithMilk(amount) {
+         this.amountOfMilk += amount;
     }
 
-    placeCup() {
+    checkIfCupPlaced() {
         // check if a cup has been placed
         this.placedCup = true;
     }
 
+    placeCup(cup) {
+        this.placedCup = cup;
+    }
+
     chooseCoffeeType() {
-      this.choseCoffeeType 
+        this.choseCoffeeType = "Black Coffee", "Caffe Latte", "Cappucino", "Espresso";
     }
 
     checkIfEnoughCoffeeForCup() {

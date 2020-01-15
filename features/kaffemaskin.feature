@@ -126,11 +126,23 @@ Feature: Kaffemaskin
 
 
     Scenario: User chose the wrong coffee type
+         Given that the user want Black Coffee
+         And the user chooses Espresso by accident
+         And the user presses the cancel-button
+         Then the user is able to choose another coffee type
 
     
     Scenario: User chose the wrong payment method
+         Given that the user wants to pay with coins
+         And the user selects creditcard as payment method
+         When the user presses the cancel-button
+         Then the user is able to choose the desired payment method
 
 
-    Scenario: User payed too much using coins as payment method
+    Scenario: User gets change back if they pay to much using coins
+          Given that the user wants a Cappucino that costs 20 kr
+          And the user inserts 2 kr too much
+          Then the machine returns those 2 kr back
+          
 
 

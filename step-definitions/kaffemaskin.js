@@ -14,22 +14,13 @@ let myMachine;
 // read/use them
 module.exports = function () {
 
-    this.Given(/^that I want to buy coffee$/, function () {
+    this.Given(/^that the machine is plugged in$/, function () {
        
         myMachine = new CoffeeMachine();
-
-        myMachine.userWantsCoffee();
-
-        assert.strictEqual(myMachine.userNeedsCoffee, true,
-            "Expected that the user wanted to buy coffee");
-        
-    });
-
-    this.Given(/^that the machine is plugged in$/, function () {
         
         myMachine.plugIn();
 
-        assert.strictEqual(myMachine.pluggedIn, true, "Expected that the machine is plugged in");
+        assert.deepEqual(myMachine.pluggedIn, true, "Expected that the machine is plugged in");
     
     });
 
@@ -43,33 +34,64 @@ module.exports = function () {
     
     this.Given(/^that ground coffee is available$/, function () {
         
-        myMachine.checkIfIngredientExist();
+        assert.deepEqual(myMachine.checkIfGroundCoffeeExists(), false,
+            "Expected the machine to not have enough ground coffee");
+        
+            fillWithCoffee(3000) // grams
+        
 
-        assert.strictEqual(myMachine.groundCoffeeAvailable, true, "Expected that ground coffee is available");
+        assert.deepEqual(myMachine.checkIfGroundCoffeeExists(), true,
+            "Expected that ground coffee is available after filling it with 2000 grams of ground coffee");
         
     });
 
     this.Given(/^that water is available$/, function () {
         
-        myMachine.checkIfIngredientExist();
+        assert.deepEqual(myMachine.checkIfWaterExists(), false,
+            "Expected water to not be available");
+        
+         fillWithWater(50) // in litres      
+        
 
-        assert.strictEqual(myMachine.waterAvailable, true, "Expected that water is available");
+        assert.deepEqual(myMachine.checkIfWaterExists(), true,
+            "Expected water to be available after refilling the machine with 50 litres of water");
         
     });
 
     this.Given(/^that milk is available$/, function () {
         
-        myMachine.checkIfIngredientExist();
-
-        assert.strictEqual(myMachine.milkAvailable, true, "Expected that milk is available");
+        assert.deepEqual(myMachine.checkIfMilkExists(), false,
+            "Expected milk to not be available");
+        
+        
+        
+        assert.deepEqual(myMachine.milkAvailable, false, "Expected milk to be not available");
         
     });
 
+    this.Given(/^that a cup has been placed$/, function () {
+        
+        assert.strictEqual(myMachine.checkIfCupPlaced(), false,
+            "Expected cup to not be placed");
+        
+        placeCup(cup);
 
+        assert.strictEqual(myMachine.checkIfCupPlaced(), true, "Expected that a cup is placed");
+        
+    });
    
+    this.Given(/^you have used SEK only$/, function (nonSEK) {
+        
+        global.nonSEK = nonSEK;
 
+        assert.throws(
+            function () {
+                myMachine.insertMoney(global.nonSek);
+            },
+                Error, "You must insert a valid Swedish Crown " + nonSek,
+                    'Expected the runtime error "You must insert money not ' + nonSek + '"');
+          
+    });
     
-
-
 
 }

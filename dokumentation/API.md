@@ -18,11 +18,11 @@
         
         pluggedIn
         type: boolean
-        initial value: false;
+        initial value: false
 
         pressedStartButton
         type: boolean
-        inital value: false;
+        initial value: false
 
         groundCoffeeAvailable
         type: boolean
@@ -60,7 +60,7 @@
         initial value: false
 
         checkedBalance(boolean)
-        initial value: false;
+        initial value: false
 
        
 
@@ -79,8 +79,13 @@
         
     
       
-    checkIfIngredientsExists() en för varje? kaffe, mjölk, vatten
-        
+    checkIfGroundCoffeeExists() 
+
+    
+    checkIfWaterExists()
+
+    
+    checkIfMilkAvailable()    
     
 
     fillWithWater(amount) 
@@ -94,9 +99,10 @@
       
     
 
-    placeCup() 
-        
-        
+    checkIfCupPlaced() 
+
+    
+     placeCup(cup)    
     
 
     chooseCoffeeType() 
