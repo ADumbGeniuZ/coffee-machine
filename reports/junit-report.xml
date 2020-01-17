@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.001255999">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0014152">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001949">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0003125">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000146199">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000338899">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000245201">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000323201">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.001546999">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -76,32 +70,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000165499">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000097101">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001168">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001015">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000149301">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001355">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000111499">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000884">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000259101">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -152,32 +140,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001108">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000080799">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000159299">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000074901">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000219001">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001147">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000123501">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000096501">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0002124">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -228,32 +210,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000752">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000089901">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000986">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001315">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000823">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001043">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000545">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000461">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0001624">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -304,32 +280,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000657">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000046999">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001021">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001132">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000106601">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000089799">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000057999">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000594">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0001396">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -380,32 +350,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000743">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000099">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000822">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000712">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000226099">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000859">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000056799">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000050401">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000166401">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -456,32 +420,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001241">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000941">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000888">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000729">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000067201">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000097">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000696">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000583">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0002119">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -532,32 +490,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000061">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000119799">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000107801">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000070701">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000142701">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000607">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000704">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000979">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000113">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -608,32 +560,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000060799">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000079999">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000702">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000765">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000142999">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000974">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000072999">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000597">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000136901">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -684,32 +630,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000052301">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000049301">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.00011">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000078899">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000917">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000083499">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000056601">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000997">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000170799">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -760,32 +700,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001092">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000626">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000087199">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001046">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000739">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000068199">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000073501">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000057001">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000137">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -836,32 +770,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000687">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000050299">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000061799">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000073899">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000085001">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000557">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000598">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000472">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000102799">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -912,32 +840,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000728">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0001378">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000659">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000088299">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000192099">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000095601">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000484">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000043801">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000119">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -988,32 +910,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000518">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000090301">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000748">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0001145">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001543">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0001242">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.000063899">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000434">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000148999">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -1064,32 +980,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000451">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.000079899">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000351">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000092099">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.0000914">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000051001">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000605">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.0000712">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.0010828">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -1140,32 +1050,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="15">
+    <testsuite name="kaffemaskin;paying-with-coins" tests="18" failures="1" skipped="12">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000611">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-coins" time="0.0000786">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.000116799">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-coins" time="0.0000871">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000182001">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-coins" time="0.000090201">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins" time="0.0000625">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins" time="0.000045299">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins" time="0.000108299">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-coins">
             <skipped message="">
@@ -1216,32 +1120,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000522">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000044601">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000065601">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000081901">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000214901">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0002055">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000557">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000692">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000164899">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1272,32 +1170,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000573">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000526">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000102201">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000062201">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000129">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000071301">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000634">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000713">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0001283">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1328,32 +1220,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000889">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000471">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000803">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000109999">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000135001">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000529">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000057701">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000041801">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000104999">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1384,32 +1270,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000432">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000934">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000052999">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000056299">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0001491">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000926">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000737">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000071801">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000149799">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1440,32 +1320,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000607">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000727">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000999">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000634">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0002162">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000057">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000128099">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000058999">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000126599">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1496,32 +1370,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000766">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000051199">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000594">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000863">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000235299">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000912">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000449">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000043899">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000123299">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1552,32 +1420,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000672">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000665">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000077601">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000683">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000155099">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000632">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000996">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000451">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0001084">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1608,32 +1470,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000487">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000078701">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000672">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000073801">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000861">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000742">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000821">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000049599">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000174501">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1664,32 +1520,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000473">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000064199">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000637">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000057601">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000149699">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000888">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000547">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000065099">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000112899">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1720,32 +1570,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000077">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000633">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000454">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000132">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000684">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000708">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000602">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000067001">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000151299">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1776,32 +1620,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000418">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000070601">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000568">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000094599">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0001774">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000072301">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000062999">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000057501">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0001196">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1832,32 +1670,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000047199">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000536">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000893">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000095199">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0001718">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000563">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.000080701">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000094299">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0006186">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1888,32 +1720,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000064601">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000492">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000065699">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000965">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000076699">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000071301">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000673">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000406">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000139">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -1944,32 +1770,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000434">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000697">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000496">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000072501">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.0001147">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000081501">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000984">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000066901">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.000105001">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -2000,32 +1820,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.000056">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000466">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000963">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000547">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000127799">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000095901">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000624">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.000094799">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0001362">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -2056,32 +1870,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;paying-with-creditcard" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000422">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;paying-with-creditcard" time="0.0000645">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.0000587">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;paying-with-creditcard" time="0.000070901">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000068299">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;paying-with-creditcard" time="0.000102799">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard" time="0.0001016">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard" time="0.0000598">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard" time="0.0001061">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;paying-with-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;paying-with-creditcard">
             <skipped message="">
@@ -2112,32 +1920,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" tests="12" failures="1" skipped="9">
+    <testsuite name="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" tests="12" failures="1" skipped="6">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.0000574">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.0000827">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.0000922">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.0000506">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.0001381">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.000071501">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.000072401">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.000060699">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard" time="0.0001139">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;user-doesn&apos;t-have-enough-balance-on-their-creditcard">
             <skipped message="">
@@ -2164,32 +1966,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000505">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000749">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000567">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000057699">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000134499">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000568">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000085701">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000125699">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000135101">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
             <skipped message="">
@@ -2220,32 +2016,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000072301">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000055499">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000109299">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000039">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0001616">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000078">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000777">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000661">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0001825">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
             <skipped message="">
@@ -2276,32 +2066,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000814">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000059901">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000958">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000057499">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000129001">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000055">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0001143">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000086399">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000210199">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
             <skipped message="">
@@ -2332,32 +2116,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0008712">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000050999">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0000735">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000097799">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000211199">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000044001">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000065201">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.000087799">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage" time="0.0001444">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;the-machine-doesn&apos;t-have-enough-ingredients-for-desired-beverage">
             <skipped message="">
@@ -2388,32 +2166,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;there-is-not-a-cup-placed" tests="12" failures="1" skipped="9">
+    <testsuite name="kaffemaskin;there-is-not-a-cup-placed" tests="12" failures="1" skipped="6">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.0000601">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.000102999">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.0000613">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.000058701">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.000135199">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.000064001">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.000096499">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.0000604">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;there-is-not-a-cup-placed" time="0.0001681">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;there-is-not-a-cup-placed">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;there-is-not-a-cup-placed">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;there-is-not-a-cup-placed">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;there-is-not-a-cup-placed">
             <skipped message="">
@@ -2440,32 +2212,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;user-chose-the-wrong-coffee-type" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;user-chose-the-wrong-coffee-type" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.0000535">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.0000614">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.000081299">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.0000863">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.000185601">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.0001148">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.000134899">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.000079501">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;user-chose-the-wrong-coffee-type" time="0.000149301">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;user-chose-the-wrong-coffee-type">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;user-chose-the-wrong-coffee-type">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;user-chose-the-wrong-coffee-type">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;user-chose-the-wrong-coffee-type">
             <skipped message="">
@@ -2496,32 +2262,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;user-chose-the-wrong-payment-method" tests="13" failures="1" skipped="10">
+    <testsuite name="kaffemaskin;user-chose-the-wrong-payment-method" tests="13" failures="1" skipped="7">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.00004">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.000058899">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.0000666">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.000048699">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.0000947">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.0000672">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.000058699">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.0000488">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;user-chose-the-wrong-payment-method" time="0.000117199">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;user-chose-the-wrong-payment-method">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;user-chose-the-wrong-payment-method">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;user-chose-the-wrong-payment-method">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;user-chose-the-wrong-payment-method">
             <skipped message="">
@@ -2552,32 +2312,26 @@
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" tests="12" failures="1" skipped="9">
+    <testsuite name="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" tests="12" failures="1" skipped="6">
         <properties>
             <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/kaffemaskin/features/kaffemaskin.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.0000471">
+        <testcase name="Given that the machine is plugged in" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.0000583">
         </testcase>
-        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.0000884">
+        <testcase name="And that the user has pressed the start button" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.0000623">
         </testcase>
-        <testcase name="And that ground coffee is available" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.000136401">
-            <failure message="ReferenceError: amountOfCoffee is not defined">ReferenceError: amountOfCoffee is not defined
-    at CoffeeMachine.checkIfGroundCoffeeExists (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\index.js:41:9)
-    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:37:36)
+        <testcase name="And that ground coffee is available" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.000049101">
+        </testcase>
+        <testcase name="And that water is available" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.000065599">
+        </testcase>
+        <testcase name="And that milk is available" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.0000715">
+        </testcase>
+        <testcase name="And that a cup has been placed" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins" time="0.000124">
+            <failure message="AssertionError: Expected cup to not be placed: expected true to deeply equal false">AssertionError: Expected cup to not be placed: expected true to deeply equal false
+    at Function.assert.deepEqual (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\kaffemaskin\step-definitions\kaffemaskin.js:77:16)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
-        </testcase>
-        <testcase name="And that water is available" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that milk is available" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that a cup has been placed" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins">
-            <skipped message="">
-            </skipped>
         </testcase>
         <testcase name="And you have used SEK only" classname="kaffemaskin;user-gets-change-back-if-they-pay-to-much-using-coins">
             <skipped message="">
